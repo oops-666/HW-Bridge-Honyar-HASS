@@ -1,0 +1,23 @@
+name: HW-Bridge-Honyar-HASS
+version: 0.1.7
+slug: hwhomebridge_honyar
+description: 将 Home Assistant 设备连接到智慧生活
+arch:
+- aarch64
+startup: application
+boot: manual
+init: false
+host_network: true
+homeassistant_api: true
+ingress: true
+ingress_port: 8100
+panel_icon: mdi:home-assistant
+map:
+- type: addon_config
+  read_only: false
+options:
+  network_interface: ''
+  pairing_auth: sdk_default
+schema:
+  network_interface: str
+  pairing_auth: list(sdk_default|custom_pin)

@@ -1,0 +1,8 @@
+{
+  "version": "0.1.7",
+  "architecture": "aarch64",
+  "source_image_id": "sha256:f1cdf3392a6c43ea6098efd2403d3de3b1afb06b6f0c70dbfafaefdf361f1dab",
+  "rootfs_sha256": "69671f48fc4145cccdc5ac38a21329c9609694086f6b305a6170f71f08e4b47e",
+  "verified_application_files": 18,
+  "note": "Exported from a new container that was never started; no pairing data included."
+}
